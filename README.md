@@ -6,35 +6,35 @@
 
     А после него идет ntoskrnl.exe - PID у него 4.
 
-![](pic/um.PNG)
+![](pic/um.png)
 
 ### 2. Какой "драйвер" загружается первым? Что это за драйвер (ответьте своими словами)?
 
     ntoskrnl.exe - файл ядра операционных систем семейства Windows NT. Данный файл запускается загрузчиком ядра NTLDR в безопасном режиме. Простыми словами: Запускает ядро.
 
-![](pic/dois.PNG)
+![](pic/dois.png)
 
 ### 3. Какой PID у родительского процесса для smss.exe (не у самого smss.exe, а у того, кто его создал)?
 
     System - PID у него 4.
 
-![](pic/tres.PNG)
+![](pic/tres.png)
 
 ### 4. Какой процесс является родительским для процесса winlogon.exe? Где расположен файл winlogon.exe?
 
     SMSS.exe - PID у него 480. Расположен файл winlogon.exe: C:\Windows\System32\winlogon.exe
 
-![](pic/quatro.PNG)
+![](pic/quatro.png)
 
 ### 5. Какой процесс является родительским для процесса lsass.exe?
 
     wininit.exe - PID у него 488.
 
-![](pic/cinco.PNG)
+![](pic/cinco.png)
 
 ### 6. Что будет если в таск менеджере (taskmgr.exe) завершить работу следующего процесса: Windows Log-on Application
 
     После завершения данного процесса система выходит на экран блокировки ОС, при этом закрывая все открытые приложения в системе.
 
-![](pic/seis.PNG)
-![](pic/sete.PNG)
+![](pic/seis.png)
+![](pic/sete.png)
